@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Publish",
+            "type": "shell",
+            "command": "/usr/bin/structurizr_cli/structurizr.sh push -url http://structurizr:8080/api --apiSecret c91c0d6a-b454-4b7a-bb3f-86a2e5188bde --workspace ./dsl --workspaceId 1 --apiKey=770e4199-ce03-495a-9503-145d80c5c921",
+            "problemMatcher": []
+        },
+        {
+            "label": "Export",
+            "type": "shell",
+            "command": "/usr/bin/structurizr_cli/structurizr.sh export --workspace ./dsl -format plantuml -output ./output",
+            "problemMatcher": []
+        }
+    ]
+}

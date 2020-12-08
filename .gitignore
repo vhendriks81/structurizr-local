@@ -1,0 +1,5 @@
+*.env
+*.war
+**/logs
+/output
+eula.properties
