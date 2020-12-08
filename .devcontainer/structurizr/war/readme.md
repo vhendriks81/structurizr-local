@@ -1,0 +1,1 @@
+Add your structurizr-onpremises-XXXX.war file here as "structurizr-onpremises.war"
