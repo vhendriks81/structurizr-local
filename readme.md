@@ -12,7 +12,7 @@ Make sure you have VSCode, docker AND the extension: https://marketplace.visuals
 
 Open up the folder with VSCode and it should mention it's seeing a devcontainer asking if it should open up the devcontainer instead. Click yes.
 
-Alternatively you can run "Remote-Containers: Reopen in Container" using the command pallet
+Alternatively you can run "Remote-Containers: Reopen in Container" using the command pallete
 
 ## Using
 Edit the diagram(s) in /dsl (see demo.dsl for example, which you can remove)
