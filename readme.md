@@ -16,5 +16,6 @@ Alternatively you can run "Remote-Containers: Reopen in Container" using the com
 
 ## Using
 Edit the diagram(s) in /dsl (see demo.dsl for example, which you can remove)
-Press ctrl+f5(run) to publish your diagram to the local structurizr server
+Press ctrl+f5(run) to open your browser to the local structurizr instance and ctrl+shift+b (build) to publish your diagram to the local structurizr server
+
 Navigate to http://localhost:1315 using your local browser and log in using the login credentials: "structurizr"/"password"
